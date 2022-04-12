@@ -1,0 +1,11 @@
+{
+  "name": "express-passport-auth-sample",
+  "version": "1.0.0",
+  "description": "PassportJS Authentication Sample Middleware using Cookie Session on ExpressJS Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run server.js"
+  },
+  "author": "frednunesjr",
+  "license": "ISC"
+}
