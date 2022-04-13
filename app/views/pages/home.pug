@@ -1,0 +1,25 @@
+extends ../template
+
+block htmlBody
+    .container
+        .row
+            .col
+                .hero
+                    h1 Welcome to the Login App
+                    p Sample doesn't means that is simple. But it's.
+                    p Built with Express + Passport using Local Session. Powered by NodeJS.
+    .container.text-center
+        .row
+            .col 
+                h2 See the latest posts 
+                p A content made specially for you!
+        .row
+            .col-3.card
+                h3: a(href="#") A free content to see
+                p This content is avaliable for any person that reads our page. Try to login with user: admin, pass: admin
+            .col-3.card
+                h3: a(href="#") Content #1 for Logged Users
+                p If you can see means that you're sucessfully logged in!
+            .col-3.card
+                h3: a(href="#") Content #2 for Logged Users
+                p Nothing is free, someone has paid, in this case you have paid
