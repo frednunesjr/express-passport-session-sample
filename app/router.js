@@ -2,13 +2,13 @@ const router = require('express').Router();
 
 router.route('/')
     .get((req, res) => {
-        res.render('template', {message: 'Homepage'});
+        res.render('pages/home', {pageTitle: 'Homepage'});
     });
 
 
 router.route('/login')
     .get((req, res) => {
-        res.send("Login Page");
+        res.render('pages/login', {pageTitle: 'Login'});
     })
     .post((req, res) => {
         res.send("Logon Request");

@@ -6,7 +6,8 @@ const session   = require('cookie-session');
 const app       = express();
 
 app.set('view engine', 'pug');
-app.set('views', path.join(__dirname, './'));
+app.set('views', path.join(__dirname, './views/'));
+app.use(express.static(path.join(__dirname, './public/')));
 app.use(router);
 
 module.exports = app;
